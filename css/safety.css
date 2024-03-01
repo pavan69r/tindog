@@ -1,0 +1,152 @@
+/* Resetting default margin and padding */
+@media screen {
+    
+
+    .navbar {
+        background-color: transparent; /* Set navbar background color to transparent */
+    
+      }
+      .container-fluid1{
+         background-color: transparent;
+      }
+      .container-fluid {
+        flex: auto;
+     
+      }
+      .navbar-toggler {
+        border:black; /* Remove border from toggler button */
+      }
+      
+      .navbar-toggler-icon {
+        background-color:transparent; /* Set toggler icon color to white */
+      }
+      
+        
+      .btn-outline-light {
+        font-family: 'Montserrat', sans-serif; /* Exciting font */
+      }
+  
+  /* Navbar styling */
+.navbar {
+    background-color: transparent; /* Background color */
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif; /* Exciting font */
+    font-weight: bold;
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat', sans-serif; /* Exciting font */
+    color:#d7c1c1;
+    font-weight: 900;
+  }
+  
+  .login-button {
+    margin-left: auto; /* Pushes the login button to the right */
+  }
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    
+    /* Navigation styles */
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      text-align: center;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    nav ul li a:hover {
+      color: #ffd700; /* Change color on hover */
+    }
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+/* Safety section styles */
+#safety {
+    padding: 50px;
+}
+
+#safety h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#safety p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+p, li{
+    color:rgb(248, 241, 241);
+  }
+}

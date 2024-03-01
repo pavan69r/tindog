@@ -1,0 +1,256 @@
+@media screen {
+  
+
+body {
+    font-family: "Montserrat";
+  
+  }
+  
+  #title {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  #first{
+    padding: 100px;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: large;
+    text-emphasis-color: darkred;
+    text-decoration: wavy;
+    text-shadow: #000000 ;
+    color:#090404;  
+  }
+  #introduction p{
+    color:#fffefe;
+    font-weight: 900;
+    font-size: 24px;
+    margin: 3%;
+    line-height: 1.5;
+    text-align: center;
+  }
+  h1 {
+      font-family:inherit ;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+  
+  }
+  
+  h2,h3{
+    font-family:inherit;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .navbar {
+    background-color: transparent; /* Set navbar background color to transparent */
+
+  }
+  .container-fluid1{
+     background-color: transparent;
+  }
+  .container-fluid {
+    flex: auto;
+ 
+  }
+  .navbar-toggler {
+    border:black; /* Remove border from toggler button */
+    align-items: left;
+  }
+  
+  .navbar-toggler-icon {
+    background-color:transparent; /* Set toggler icon color to white */
+   
+  }
+  
+    
+  .btn-outline-light {
+    font-family: 'Montserrat', sans-serif; /* Exciting font */
+  }
+  
+  
+/* Navbar styling */
+.navbar {
+  background-color: transparent; /* Background color */
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif; /* Exciting font */
+  font-weight: bold;
+  font-size: 42px; /* Adjust font size as needed */
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Montserrat', sans-serif; /* Exciting font */
+  color:#fefbfb;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.login-button {
+  margin-left: auto; /* Pushes the login button to the right */
+  font-family: fantasy;
+  font-weight: 900;
+  text-decoration: #000000;
+}
+
+  
+  
+  .download-button{
+    margin: 5% 3% 5% 0;
+  }
+  
+  .title-image{
+    width: 50%;
+    transform: rotate(26deg);
+    position:absolute;
+    right: 38%;
+  
+  }
+  
+  .bold-title{
+    font-family: inherit;
+  }
+  
+  
+  #features {
+    padding: 7% 15%;
+    background-color: #a43e3e;
+  position: relative;
+  z-index: 1;
+  font-family: inherit;
+  }
+  
+  .feature-box{
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  p{
+    color: grey;
+  }
+  
+  .icon{
+    color:#ef8172;
+    margin-bottom: 0.9rem;
+  }
+  
+  .icon:hover{
+    color: #ff4c68;
+  }
+  
+  /*testimonials section */
+  
+  #testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+  }
+  
+  #carouselExampleIndicators{
+  padding: 7% 15%;
+  }
+  
+  
+  .testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+
+  
+/* Adjustments for the Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #ef4242; /* Dark rose background color */
+}
+
+.pricing-column {
+  padding: 1% 1%;
+  background-color: #cc3d3d; /* Light red background color */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.3s ease;
+  margin-left: 80px;
+  margin-right: 5px;
+  margin-top: 50px;
+}
+
+.pricing-column:hover {
+  box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+.pricing-column h3,
+.pricing-column h2,
+.pricing-column p {
+  color: #090404; /* Adjust text color to white */
+}
+
+.pricing-column button {
+  background-color: #040202; /* Adjust button background color to white */
+  color: #ff6666; /* Adjust button text color to light red */
+  border-color: #fff; /* Adjust button border color to white */
+}
+
+.pricing-column button:hover {
+  background-color: #ff8b94; /* Darken button background color on hover */
+  border-color: #ff8b94; /* Darken button border color on hover */
+}
+
+  @media (max-width: 992px) {
+    .title-image{
+      position: static;
+      transform: rotate(0);
+  
+    }
+     #title{
+       text-align: center;
+     }
+  
+  }
+  #cta{
+    padding: 145px;
+    margin-left: 120px;
+    background-color: transparent;
+    text-align: center;
+  }
+  
+  #footer{
+    text-align: center;
+    text-decoration-style: solid;
+    font-weight: bold;
+    background-color: #000000 ;
+  }
+
+  .test.card {
+    background-color: #f0484800; /* Light rose background color */
+  border-color: transparent;
+  }
+
+  .test {
+    margin-bottom: 20px; /* Add margin to create separation */
+  }
+  @media screen {
+  
+  
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blink 0.8s infinite;
+
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+}
+}

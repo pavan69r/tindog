@@ -1,0 +1,212 @@
+body {
+  font-family: "Montserrat";
+
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+    font-family: Montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+
+h2,h3{
+  font-family: Montserrat-bold;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navbar {
+  background-color: transparent; /* Set navbar background color to transparent */
+}
+
+.container-fluid {
+  flex: auto;
+
+}
+.navbar-toggler {
+  border: none; /* Remove border from toggler button */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Set toggler icon color to white */
+}
+
+  
+.btn-outline-light {
+  font-family: 'Montserrat', sans-serif; /* Exciting font */
+}
+
+
+/* Navbar styling */
+.navbar {
+background-color: #ff4c68; /* Background color */
+}
+
+.navbar-brand {
+font-family: 'Montserrat', sans-serif; /* Exciting font */
+font-weight: bold;
+font-size: 24px; /* Adjust font size as needed */
+}
+
+.navbar-nav .nav-item .nav-link {
+font-family: 'Montserrat', sans-serif; /* Exciting font */
+}
+
+.login-button {
+margin-left: auto; /* Pushes the login button to the right */
+}
+
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 50%;
+  transform: rotate(26deg);
+  position:absolute;
+  right: 38%;
+
+}
+
+.bold-title{
+  font-family: Montserrat-bold;
+}
+
+
+#features {
+  padding: 7% 15%;
+  background-color: #a43e3e;
+position: relative;
+z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding-top: 100px;
+}
+
+p{
+  color: grey;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 0.9rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/*testimonials section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#carouselExampleIndicators{
+padding: 7% 15%;
+}
+
+
+.testimonials-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+
+}
+
+/* Adjustments for the Pricing Section */
+#pricing {
+padding: 100px;
+text-align: center;
+background-color: #ef4242; /* Dark rose background color */
+}
+
+.pricing-column {
+padding: 1% 1%;
+background-color: #cc3d3d; /* Light red background color */
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+margin-left: 80px;
+margin-right: 5px;
+
+}
+
+.pricing-column:hover {
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-column h3,
+.pricing-column h2,
+.pricing-column p {
+color: #090404; /* Adjust text color to white */
+}
+
+.pricing-column button {
+background-color: #040202; /* Adjust button background color to white */
+color: #ff6666; /* Adjust button text color to light red */
+border-color: #fff; /* Adjust button border color to white */
+}
+
+.pricing-column button:hover {
+background-color: #ff8b94; /* Darken button background color on hover */
+border-color: #ff8b94; /* Darken button border color on hover */
+}
+
+@media (max-width: 992px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+   #title{
+     text-align: center;
+   }
+
+}
+#cta{
+  padding: 5% 7% 5%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#footer{
+  text-align: center;
+  text-decoration-style: solid;
+  font-weight: bold;
+}
+
+.test.card {
+  background-color: #f0484800; /* Light rose background color */
+border-color: transparent;
+}
+
+.test {
+  margin-bottom: 20px; /* Add margin to create separation */
+}

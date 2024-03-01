@@ -1,0 +1,138 @@
+/* Resetting default margin and padding */
+@media screen {
+    
+
+h1 {
+    font-family: Montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+h2,h3{
+
+  font-family: Montserrat-bold;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  text-align: center;
+  border-bottom: 1px solid rgb(252, 251, 251);
+  padding-bottom: 5px;
+}
+
+
+
+  
+/* Navbar styling */
+.navbar {
+  background-color: transparent; /* Background color */
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif; /* Exciting font */
+  font-weight: bold;
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Montserrat', sans-serif; /* Exciting font */
+  color:#d7c1c1;
+  font-weight: 900;
+}
+
+.login-button {
+  margin-left: auto; /* Pushes the login button to the right */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+  }
+  
+  @media screen {
+    
+  /* About section styles */
+  #about {
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #about h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  h3, h2{
+    color: #f5e4e1;
+  }
+  #about p {
+    margin-bottom: 20px;
+    text-justify: auto;
+    text-decoration: #f5f2f2;
+  }
+
+  p, li{
+    color:rgb(248, 241, 241);
+  }
+  
+  #about ul {
+    margin-bottom: 20px;
+  }
+  
+  #about ul li {
+    margin-bottom: 10px;
+  }
+}
+
+  #footer{
+    text-align: center;
+    text-decoration-style: solid;
+    font-weight: bold;
+  }
+
+  @media screen {
+
+
+  .contents{
+    text-align: center;
+  }
+}
+}
